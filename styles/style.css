@@ -375,3 +375,104 @@ footer .footer-wrapper p {
     gap: 29px;
     margin-left: 100px;
 }
+.products {
+    max-width: 1440px;
+    width: 100%;
+    padding: 55px 104px 104px 100px;
+}
+.name-product {
+    margin-left: 564px;
+}
+.name-product h2 {
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+    color: #000000;
+}
+.product-wrapper {
+    margin-top: 26px;
+    display: flex;
+    gap: 32px;
+    margin-left: 100px;
+}
+.product1 {
+    width: 285px;
+    height: 446px;
+    background-color: #F4F5F7;
+    position: relative;
+}
+.product-info {
+    padding: 16px 20px 30px 16px;
+}
+.product-info h3 {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+    color: #3A3A3A;
+}
+.product-info p {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color:#898989;
+}
+.rp {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 8px;
+    width: 300px;
+}
+.rp h4 {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #3A3A3A;
+}
+.rp p {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #B0B0B0;
+    text-decoration: line-through;
+}
+.discount {
+    position: absolute;
+    right: 24px;
+    top: 35px;
+}
+.discount span {
+    border-radius: 50%;
+    border: 1px solid #E97171;
+    padding: 12px 1px 12px 5px;
+    background-color: #E97171;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.products button {
+    margin-left: 598px;
+    margin-top: 44px;
+    border: none;
+    border: 1px solid #B88E2F;
+    padding: 12px 74px 12px 82px;
+    background-color: #FFFFFF;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #B88E2F;
+    transition: all 0.5s;
+}
+.products button:hover {
+    background-color: #B88E2F;
+    color: white;
+    transform: scale(1.1);
+}
